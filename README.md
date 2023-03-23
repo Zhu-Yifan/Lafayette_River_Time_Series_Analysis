@@ -1,3 +1,5 @@
-# Lafayette_River_Time_Series_Analysis
+# Introduction
 
-hello
+  In shallow estuary system, wind plays an important role in nutrient variability, primarily through wind/storm driven sediment resuspension events. Additionally, wind can also impact tides by ether amplifying or reducing their height, depending on the strength and direction of the wind. This, in turn, might further increase or decrease the residence time and complicate the nutrient dynamics. The Lafayette River is a shallow, eutrophic, and microtidal tributary of the lower Chesapeake Bay, recent research from my lab has observed several strong nutrient (especially, ammonium) pulses throughout the summertime monitoring program in multiple years. One intuitive speculation is that strong wind may cause sediment re-suspension, injecting high concentration of nutrient into the overlaying water column. Another plausible explanation is that those abundant nutrients may be directly from the groundwater discharge. As strong wind events dissipate, tide height may decrease, alleviating hydrostatic pressure and thus inducing more groundwater discharge to the Lafayette River. However, a mechanistic understanding of the primary cause of nutrient pulses in the Lafayette River remains unclear. Therefore,  build this repository which contains a supervised machine learning model that finds which process is responsible for the nutrient pulses.
+  
+### Table of content
