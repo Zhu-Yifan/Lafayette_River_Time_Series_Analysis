@@ -1,6 +1,13 @@
 # Introduction
 
-In shallow estuary system, wind plays an important role in nutrient variability, primarily through wind/storm driven sediment resuspension events. Additionally, wind can also impact tides by either amplifying or reducing their height, depending on the strength and direction of the wind. This, in turn, might further increase or decrease the residence time and complicate the nutrient dynamics. The Lafayette River is a shallow, eutrophic, and microtidal tributary of the lower Chesapeake Bay, recent research from my lab has observed several strong nutrient (especially, ammonium) pulses throughout the summertime monitoring program in multiple years. One intuitive speculation is that strong wind may cause sediment re-suspension, injecting high concentration of nutrient into the overlaying water column. Another plausible explanation is that those abundant nutrients may be directly from the groundwater discharge. As strong wind events dissipate, tide height may decrease, alleviating hydrostatic pressure and thus inducing more groundwater discharge to the Lafayette River. However, a mechanistic understanding of the primary cause of nutrient pulses in the Lafayette River remains unclear. 
+In shallow estuary system, wind plays an important role in nutrient variability, primarily through wind/storm driven sediment resuspension events. Additionally, wind can also impact tides by either amplifying or reducing their height, depending on the strength and direction of the wind. This, in turn, might further increase or decrease the residence time and complicate the nutrient dynamics. The Lafayette River is a shallow, eutrophic, and microtidal tributary of the lower Chesapeake Bay (see the map below), recent research from my lab has observed several strong nutrient (especially, ammonium) pulses throughout the summertime monitoring program in multiple years. One intuitive speculation is that strong wind may cause sediment re-suspension, injecting high concentration of nutrient into the overlaying water column. Another plausible explanation is that those abundant nutrients may be directly from the groundwater discharge. As strong wind events dissipate, tide height may decrease, alleviating hydrostatic pressure and thus inducing more groundwater discharge to the Lafayette River. However, a mechanistic understanding of the primary cause of nutrient pulses in the Lafayette River remains unclear. 
+
+<p align="center">
+  <img src="https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/figures/Lafayette%20River_map.png" alt="Figure 1. Study area, showing two sampling sites, one at the Norfolk Yacht and Country Club (NYCC), near the mouth of the Lafayette River, and another at Ashland Circle (AC), near the headwaters of the Lafayette River. ">
+</p>
+
+
+
 # Obejective
 
 Using a supervised machine learning model to find which process is the primary casue of the nutrient pulses observed in the Lafayette River during summer 2018-2020.
@@ -38,7 +45,7 @@ Using a supervised machine learning model to find which process is the primary c
   The datasets used in the model were all time-series data collected by different sources and contain different frequencies as listed in the table above.
   
   * YSI mooring data were obtained as a part of harmful algal bloom monitoring program from Mulholland’s lab in summer 2018-2020. 
-  * Current velocity data were collected  as a part of Dr. Zimmerman’s field study class with undergraduates. These two datasets were both collected at Norfolk Yacht and Country Club in summer 2020 and have high sampling frequency. 
+  * Current velocity data were collected  as a part of Dr. Zimmerman’s field study class with undergraduates. These two datasets were both collected at Norfolk Yacht and Country Club (NYCC) in summer 2020 and have high sampling frequency. 
   * The meteorological dataset includes wind speed/direction and daily precipitation were collected at Norfolk Naval Station in summer 2020 and downloaded from NOAA national climate data center (https://www.ncdc.noaa.gov/cdo-web/datatools/lcd). This dataset has intermediate sampling frequencies. 
   * The discrete nutrient data were collected at bottom depth at Norfolk Yacht and Country Club in summer 2018-2020. The sampling frequency was three times a week (Mon/Wed/Fri). 
 
