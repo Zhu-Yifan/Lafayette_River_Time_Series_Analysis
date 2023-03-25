@@ -1,0 +1,22 @@
+# folders:
+/reports/
+
+# exclude data 
+/data/
+
+# notebooks:
+/notebooks/Wind_Analysis.ipynb
+
+# Jupyter NB Checkpoints
+/notebooks/.ipynb_checkpoints/
+
+# Pycharm
+.idea
+
+
+# Env
+
+
+# Database
+
+
