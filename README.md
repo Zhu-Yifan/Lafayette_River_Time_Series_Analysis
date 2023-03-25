@@ -12,7 +12,7 @@ In shallow estuary system, wind plays an important role in nutrient variability,
 
 Using a supervised machine learning model to find which process is the primary casue of the nutrient pulses observed in the Lafayette River during summer 2018-2020.
 # Data science approach
-  The data wrangling pipeline includes the following steps:
+  (1) The data wrangling pipeline
   
   
  * Data collection: gathering raw data from various sources including ADCP mooring, YSI mooring, discrete nutrient samples, and meteorological data (wind,     precipitation).  
@@ -23,7 +23,12 @@ Using a supervised machine learning model to find which process is the primary c
   
  * 	Data storage: store the cleaned data in certain format or folder that can be used for futher analysis.
  
- The workflow of supervised machine learning model:
+ (2) Time-Series Analysis
+ * Use Python packages such as statsmodels, Prophet, and ARIMA to perform time-series analysis on the monitoring data.
+ * This may involve fitting time-series models and detecting anomalies.
+ 
+ 
+ (3) Supervised Machine Learning (Regression):
  
  * Cross-correlation wind speed with significant tide height and current velocities 
  
