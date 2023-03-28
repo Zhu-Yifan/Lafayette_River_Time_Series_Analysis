@@ -2,6 +2,7 @@
 /reports/
 
 # exclude data 
+/data/raw/
 /data/external/Precipitation_daily_2018.csv
 /data/external/Precipitation_daily_2019.csv
 /data/external/Wind_hourly_2018.csv
