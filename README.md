@@ -52,7 +52,7 @@ Using a supervised machine learning model to find which process is the primary c
 |Frequency|Variables|Variables|
 |:-----------------:|:-------------------------------------:|:------------------------:|
 |High frequency|Current velocity from ADCP (~6 mins)|[Tide, temperature, salinity, and chlorophyll from YSI mooring (~15 min)](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/tree/master/data/interim/Mooring_2020)|
-|Intermediate frequency  |Wind speed and wind direction (hourly)]|Precipitation (daily)|
+|Intermediate frequency  |[Wind speed and wind direction (hourly)](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/data/external/Wind_hourly_2020.csv)|[Precipitation (daily)](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/data/external/Precipitation_daily_2020.csv)|
 |Low frequency |Discrete nutrient concentrations (NH4+, NO3-) <br> (48-72 hours)|
 
 ### Description of the datasets 
