@@ -5,6 +5,7 @@ This repository is my capstone project in course OEAS895 —"Linking wind, tide,
 |Data Cleaning|Exploratory Data Anlysis |Exploratory Data Anlysis |
 |:-----------------:|:-------------------------------------:|:------------------------:|
 |[Data cleaning and quality control](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Data_cleaning_quality_control.ipynb)|[Time-series analysis of YSI data](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Time_Series_Analysis.ipynb)|[Wind data analysis](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Wind_Analysis.ipynb)|
+|...|[Wind-Tide-Nutrient](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Wind_Tide_Nutrient_Part01_EDA.ipynb)|[Chesapeake Bay water quality monitoring ](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Chesapeake_Bay_Program_Water_Quality_EDA.ipynb)|
 |...|...|...|
 
 
@@ -37,13 +38,11 @@ Using a supervised machine learning model to find which process is the primary c
  * This may involve fitting time-series models and detecting anomalies.
  
  
- (3) Supervised Machine Learning (Regression):
+ (3) Supervised Machine Learning (Classification):
  
- * Cross-correlation wind speed with significant tide height and current velocities 
+ * Make a table with nutrient as target variables. List columns including associated wind speed, direction, tide hight, accumulcated tide height, max/min tide height, water volume fluxes, can go back one day, two/three days,  
  
- * Going through feature-selection for model input
- 
- * Use selected features (variables) such as tide height and wind speed/direction as proxy to predict nutrient concentrations 
+ * Build a classification model  
  
  * validate the model
 
@@ -53,7 +52,7 @@ Using a supervised machine learning model to find which process is the primary c
 |:-----------------:|:-------------------------------------:|:------------------------:|
 |High frequency|Current velocity from ADCP (~6 mins)|[Tide, temperature, salinity, and chlorophyll from YSI mooring (~15 min)](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/tree/master/data/interim/Mooring_2020)|
 |Intermediate frequency  |[Wind speed and wind direction (hourly)](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/data/external/Wind_hourly_2020.csv)|[Precipitation (daily)](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/data/external/Precipitation_daily_2020.csv)|
-|Low frequency |Discrete nutrient concentrations (NH4+, NO3-) <br> (48-72 hours)|
+|Low frequency |[Discrete nutrient concentrations (NH4, NO3) <br> (48-72 hours)](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/data/processed/Nutrient_2020_V4.CSV) |
 
 ### Description of the datasets 
   The datasets used in the model were all time-series data collected by different sources and contain different frequencies as listed in the table above.
