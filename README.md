@@ -2,11 +2,11 @@
 This repository is my capstone project in course OEAS895 —"Linking wind, tide, and current velocity with bottom nutrient concentrations in the Lafayette River" 
 
 ## Table of content
-|Data Cleaning|Exploratory Data Anlysis |Exploratory Data Anlysis |
-|:-----------------:|:-------------------------------------:|:------------------------:|
-|[Data cleaning and quality control](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Data_cleaning_quality_control.ipynb)|[Time-series analysis of YSI data](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Time_Series_Analysis.ipynb)|[Wind data analysis](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Wind_Analysis.ipynb)|
-|...|[Wind-Tide-Nutrient](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Wind_Tide_Nutrient_Part01_EDA.ipynb)|[Chesapeake Bay water quality monitoring ](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Chesapeake_Bay_Program_Water_Quality_EDA.ipynb)|
-|...|...|...|
+|Data Cleaning|Exploratory Data Anlysis |Exploratory Data Anlysis |   Model    |
+|:-----------------:|:-------------------------------------:|:------------------------:|:----------:|
+|[Data cleaning and quality control](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Data_cleaning_quality_control.ipynb)|[Time-series analysis of YSI data](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Time_Series_Analysis.ipynb)|[Wind data analysis](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Wind_Analysis.ipynb)|[Regression model](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Wind_Tide_Nutrient_Part02_Model.ipynb)|
+|...|[Wind-Tide-Nutrient](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Wind_Tide_Nutrient_Part01_EDA.ipynb)|[Chesapeake Bay water quality monitoring ](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/notebooks/Chesapeake_Bay_Program_Water_Quality_EDA.ipynb)|...|
+|...|...|...|...|
 
 
 # Research Background
@@ -62,3 +62,7 @@ Using a supervised machine learning model to find which process is the primary c
   * The meteorological dataset includes wind speed/direction and daily precipitation were collected at Norfolk Naval Station in summer 2020 and downloaded from NOAA national climate data center (https://www.ncdc.noaa.gov/cdo-web/datatools/lcd). This dataset has intermediate sampling frequencies. 
   * The discrete nutrient data were collected at bottom depth at Norfolk Yacht and Country Club in summer 2018-2020. The sampling frequency was three times a week (Mon/Wed/Fri). 
 
+### Python version and packages
+
+* Python version 3.9.13
+* All the packages/versions used for this project can be found in [environment.yml file](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/environment.yml) 
