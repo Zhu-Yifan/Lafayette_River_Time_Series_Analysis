@@ -9,7 +9,9 @@
 /data/external/Wind_hourly_2019.csv
 
 # notebooks:
-
+/notebooks/Wind_Analysis_2018.ipynb
+/notebooks/Wind_Analysis_2019.ipynb
+/notebooks/func.py
 
 # Jupyter NB Checkpoints
 /notebooks/.ipynb_checkpoints/
