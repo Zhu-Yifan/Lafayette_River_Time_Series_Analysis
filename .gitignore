@@ -7,10 +7,10 @@
 /data/external/Precipitation_daily_2019.csv
 /data/external/Wind_hourly_2018.csv
 /data/external/Wind_hourly_2019.csv
+/data/processed/resampled_tide_wind_data.csv
 
 # notebooks:
 /notebooks/Wind_Analysis_2018.ipynb
-/notebooks/Wind_Analysis_2019.ipynb
 /notebooks/func.py
 
 # Jupyter NB Checkpoints
