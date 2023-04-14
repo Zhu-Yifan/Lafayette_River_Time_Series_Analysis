@@ -64,5 +64,5 @@ Using a supervised machine learning model to find which process is the primary c
 
 ### Python version and packages
 
-* Python version 3.9.13
+* Python version 3.10.9
 * All the packages/versions used for this project can be found in [environment.yml](https://github.com/Zhu-Yifan/Lafayette_River_Time_Series_Analysis/blob/master/environment.yml) file.
