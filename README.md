@@ -1,5 +1,5 @@
 # Introduction
-This repository is my capstone project in course OEAS895 —"Linking wind, tide, and current velocity with bottom nutrient concentrations in the Lafayette River" 
+This repository is my capstone project in the data science course OEAS895 —"Linking wind, tide, and current velocity with bottom nutrient concentrations in the Lafayette River" 
 
 ## Table of content
 |Data Cleaning|                                                                             Exploratory Data Anlysis                                                                              |                                                                       Exploratory Data Anlysis                                                                       |                                                                               Model                                                                                |
