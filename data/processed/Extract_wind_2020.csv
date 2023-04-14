@@ -1,4 +1,4 @@
-Datetime_0day,Datetime_1day,Datetime_2day,WS_extract_0day WD,extract_0day,WS_extract_1day,WD_extract_1day,WS_extract_2day,WD_extract_2day
+Datetime_0day,Datetime_1day,Datetime_2day,WS_extract_0day,WD_extract_0day,WS_extract_1day,WD_extract_1day,WS_extract_2day,WD_extract_2day
 2020-06-01T00:59:00,2020-05-31T00:59:00,2020-05-30T00:59:00,0,0,0,0,8,220
 2020-06-01T01:59:00,2020-05-31T01:59:00,2020-05-30T01:59:00,7,110,3,280,7,230
 2020-06-01T02:59:00,2020-05-31T02:59:00,2020-05-30T02:59:00,0,0,11,360,9,240
